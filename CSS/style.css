@@ -37,3 +37,19 @@ footer ul {
     vertical-align: top;
     padding-left: 40%;
 }
+
+.flexContainer {
+    display: flex;
+}
+
+.flexContainer div {
+    width: 33%;
+    margin: auto;
+    padding: auto;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
